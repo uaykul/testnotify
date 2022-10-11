@@ -11,12 +11,12 @@ self.addEventListener("push", (e) => {
     actions: [
       {
         action: "explore",
-        title: "Action1",
-        // icon: "images/"
+        title: "Update",
+        icon: "images/logo.png"
       },
       {
         action: "close",
-        title: "Bildirimi Kapat",
+        title: "Close",
         // icon:
       },
     ],
