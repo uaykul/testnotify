@@ -22,6 +22,6 @@ self.addEventListener("push", (e) => {
     ],
   };
   e.waitUntil(
-    self.registration.showNotification("Yeni Makale Eklendi!!", config)
+    self.registration.showNotification("New Version Avaible!!", config)
   );
 });
