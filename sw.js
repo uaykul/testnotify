@@ -1,7 +1,7 @@
 self.addEventListener("push", (e) => {
   console.log("e :>> ", e.data.text());
   const config = {
-    body: e.data.text() || "Yeni Makaleye Gözatın!!",
+    body: e.data.text() || "New Version Avaible!!",
     data: {
       dateOfArrival: Date.now(),
       primaryKey: "3",
